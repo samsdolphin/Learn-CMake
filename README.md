@@ -13,4 +13,4 @@
 * `include_directories(include)` adds _.h_ headers in _include/_ and `link_directories(lib)` adds _.so_ libraries in _lib/_ into compilation.
 * `find_package(OpenCV REQUIRED)` searches corresponding _.so_ in `/usr/local/lib` or `/usr/lib`. If found, variable `OpenCV_LIBS` is valid.
 * `file(GLOB SOURCES "src/*.cpp")` find all _src/_ files ended with _.cpp_ and handle this list with the variable `SOURCES`.
-* The named `target` in `target_link_libraries` must have been created in the current directory by a command such as `add_executable()` or `add_library()`.
+* The named `target` in `target_link_libraries()` must have been created in the current directory by a command such as `add_executable()` or `add_library()`.
