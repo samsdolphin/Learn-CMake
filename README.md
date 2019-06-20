@@ -25,4 +25,4 @@
 
 ## catkin_make
 
-* Build one package only: `catkin_make -DCATKIN_WHITELIST_PACKAGES="foo;bar"`, please separate your individual package with `;`.
+* Build one package only: `catkin_make -DCATKIN_WHITELIST_PACKAGES="foo;bar"`, please also note that `catkin_make -DCATKIN_WHITELIST_PACKAGES=""` will build all packages together.
