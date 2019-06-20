@@ -22,3 +22,7 @@
 	* Forget to include or link libraries. Try to use `add_library()` or solution [above](##cmakelists.txt).
 * __Class has no member named__
 	* Include or link an old library, use `rospack list-names` to check if ROS duplicated.
+
+## catkin_make
+
+* Build one package only: `catkin_make -DCATKIN_WHITELIST_PACKAGES="foo;bar"`, please separate your individual package with `;`.
